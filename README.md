@@ -45,7 +45,7 @@ The following picture shows all the work steps that are carried out. I usually c
 
 ----
 #### Two PowerBI Charts
-#### Heat Table 
+#### Heat Table: 
 Now two PowerBi charts follow. The heat table shows the top 10 players ranking for MVP shares in a season. Furthermore, the 10 most important features are color-coded according to their size. This clearly shows what differentiates a Nikola Jokic, the mvp of the 2022 season, from the other players. 
 <br/><br/>
 ![](pngs/heat_table_2022.PNG)
