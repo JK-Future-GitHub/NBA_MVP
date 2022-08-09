@@ -43,11 +43,24 @@ The following picture shows all the work steps that are carried out. I usually c
 
 ![](pngs/fi_impact_edit.png)
 
+----
+#### Two PowerBI Charts
+#### Heat Table: 
+Now two PowerBi charts follow. The heat table shows the top 10 players ranking for MVP shares in a season. Furthermore, the 10 most important features are color-coded according to their size. This clearly shows what differentiates a Nikola Jokic, the mvp of the 2022 season, from the other players. 
 <br/><br/>
-#### Additionally the HeatTable Plot:
-
-![](pngs/nba_compare_2022.PNG)
 ![](pngs/heat_table_2022.PNG)
+
+----
+#### Compare Chart:
+The compare chart now compares the real values of the mvp choice with those predicted by the model. On the one hand, it is noticeable that the predicted values for the top 3 players do not come close to the real values of the election. On the other hand, players who received only a few votes in the election do much better in the model. This can all be explained with the voting system. Since I don't want to explain the whole voting system here, only a short summary follows.
+
+Statistically speaking, many players are having a very good season. So they should be closer together in the MVP pick if only those stats were considered. But the voting system works differently. This means that a player who was the MVP for a person receives significantly more points than a player who only ends up in 3rd place. In reality, there is only a minimal difference between the places - but the points awarded speak a different language.
+
+Nevertheless, the model can correctly determine the MVP and usually also the top 3 players of a season.
+The charts for each season as well as the chart of all MVP votes ranked can be found in the 'nba_ml.ipynb' file.
+<br/><br/>
+![](pngs/nba_compare_2022.PNG)
+
 
 <br/><br/>
 ## Programming Language & Tools
